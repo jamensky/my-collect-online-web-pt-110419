@@ -11,9 +11,3 @@ return new_elements
 end
 
 
-=begin
-my_collect(['ruby', 'javascript', 'python', 'objective-c']) do 
-  {|language| puts language}
-end 
-
-=end
