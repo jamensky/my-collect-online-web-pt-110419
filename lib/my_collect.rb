@@ -3,7 +3,7 @@ def my_collect(languages)
   new_elements = []
   
   while i < languages.length
-  new_elements << yield(languages[i].upcase)
+  new_elements << yield(languages[i])
   
   i+= 1
 end 
